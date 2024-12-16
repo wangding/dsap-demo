@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # 控制台交互式输入成绩等级，计算平均绩点
 
 print('Welcome to the GPA calculator.')

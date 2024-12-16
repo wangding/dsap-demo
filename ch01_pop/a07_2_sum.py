@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # 没有显示检查，代码会自己抛出异常
 
 def sum(values):

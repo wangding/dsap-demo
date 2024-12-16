@@ -1,14 +1,14 @@
+#!/usr/bin/env python
+
 # 生成斐波那契数列的函数
 # 使用生成器，实现惰性计算
+# 使用同时分配，改进代码风格，代码更简练
 
 def fibonacci():
-  a = 0
-  b = 1
+  a, b = 0, 1
   while True:
     yield a
-    future = a + b
-    a = b
-    b = future
+    a, b = b, a+b
 
 fib = fibonacci()
 for x in range(10):

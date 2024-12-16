@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # 计算列表中给定目标出现次数的函数
  
 def count(data, target):

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # 控制台交互式输入和输出
 
 age = int(input('Enter your age in years: '))

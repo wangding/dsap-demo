@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # 函数的 return 语句
 
 def contains(data, target):

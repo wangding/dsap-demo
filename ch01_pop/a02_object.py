@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Python 中所有标识符都是对象
 
 age = 20

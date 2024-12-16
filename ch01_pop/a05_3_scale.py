@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # 函数的可变参数
 
 def scale(data, factor):

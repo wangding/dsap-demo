@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # 根据成绩等级列表 grades，计算平均绩点的函数
 # 函数的可选参数 points
 

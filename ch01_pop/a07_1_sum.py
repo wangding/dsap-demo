@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # 抛出异常
 
 from collections.abc import Iterable

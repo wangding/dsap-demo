@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 def is_multiple(n, m):
   return n % m == 0
 
