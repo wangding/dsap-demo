@@ -2,8 +2,7 @@
 
 # 求平方根
 def sqrt(num):
-  PRECISION = 0.01
-  delta = 1
+  PRECISION, delta = 0.001, 1
   low, high = (1, num) if num > 1 else (0, 1)
   while delta > PRECISION:
     root = (low+high) / 2
@@ -13,6 +12,6 @@ def sqrt(num):
     delta = high - low
   return root
 
-if __name__ == '__main__':
-  number = float(input('计算平方根，请输入这个数字：'))
-  print(f'sqrt({number}) = {sqrt(number)}')
+print(sqrt(9))
+print(sqrt(5))
+print(sqrt(0.01))
